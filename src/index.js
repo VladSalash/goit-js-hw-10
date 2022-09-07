@@ -27,10 +27,7 @@ function onSearch(e) {
     .catch(onFetchError);
     return;
   }
-
-
-
-  newsApiService.resetPage();
+newsApiService.resetPage();
 
 }
 ////////////////////////////////////////////////////////////////////////////////////
