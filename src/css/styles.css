@@ -10,6 +10,12 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+
+  background-image: radial-gradient(#212121 5%, #fff 0%);
+  background-position: 0 0;
+  background-size: 20px 20px;
+  height: 200px;
+  width: 100%;
 }
 
 #search-box {
@@ -17,4 +23,19 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul,
+li,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  margin-right: 10px;
 }
