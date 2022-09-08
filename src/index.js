@@ -33,7 +33,7 @@ newsApiService.resetPage();
 ////////////////////////////////////////////////////////////////////////////////////
 // SUCCESS
 function onFetchSuccess(data) {
-  if ( data[0].length > 10) {
+  if ( data.length > 10) {
     Notify.info('Too many matches found. Please enter a more specific name.')
     // newsApiService.resetPage();
     return;
